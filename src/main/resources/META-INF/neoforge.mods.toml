@@ -1,0 +1,43 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="goals_injector"
+version="1.0.0"
+displayName="Goal Injector"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Spiderman31807"
+authors="Spiderman31807"
+description="A simple mod that adds a custom event `RegisterGoalsEvent` that allows the modification and query of a mobs goals during the registration (for modders)"
+displayTest="IGNORE_SERVER_VERSION"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+[[mixins]]
+config="mixin.goal.injector.json"
+# End of user code block custom mixins
+
+[[dependencies.goals_injector]]
+modId="neoforge"
+type="required"
+versionRange="[21.8.31,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.goals_injector]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.8]"
+ordering="AFTER"
+side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

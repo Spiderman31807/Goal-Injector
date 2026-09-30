@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "sxs.injector.goals.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MobMixin",
+    "NearestAttackableTargetGoalMixin",
+    "AvoidEntityGoalMixin"
+  ],
+  "client": [],
+  "minVersion": "0.8"
+}

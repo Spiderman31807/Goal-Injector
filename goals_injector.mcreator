@@ -1,0 +1,137 @@
+{
+  "mod_elements": [
+    {
+      "name": "Holder",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "holder",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/injector/goals/Holder.java"
+        ]
+      }
+    },
+    {
+      "name": "Entry",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "entry",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/injector/goals/Entry.java"
+        ]
+      }
+    },
+    {
+      "name": "NearestAttackableTargetGoalMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nearest_attackable_target_goal_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/injector/goals/NearestAttackableTargetGoalMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "RegisterGoalsEvent",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "register_goals_event",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/injector/goals/RegisterGoalsEvent.java"
+        ]
+      }
+    },
+    {
+      "name": "MobMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mob_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/injector/goals/MobMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "GoalFormatting",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "goal_formatting",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/injector/goals/GoalFormatting.java"
+        ]
+      }
+    },
+    {
+      "name": "TypeAccessor",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "type_accessor",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/injector/goals/TypeAccessor.java"
+        ]
+      }
+    },
+    {
+      "name": "AvoidEntityGoalMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "avoid_entity_goal_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/injector/goals/AvoidEntityGoalMixin.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/sxs/injector/goals/GoalsInjectorMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "goals_injector",
+    "modName": "Goal Injector",
+    "version": "1.0.0",
+    "description": "A simple mod that adds a custom event `RegisterGoalsEvent` that allows the modification and query of a mobs goals during the registration (for modders)",
+    "author": "Spiderman31807",
+    "websiteURL": "www.curseforge.com/minecraft/mc-mods/goals-injector",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": true,
+    "modPicture": "sxs",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "Spiderman31807",
+    "modElementsPackage": "sxs.injector.goals"
+  },
+  "mcreatorVersion": 202600233518
+}
