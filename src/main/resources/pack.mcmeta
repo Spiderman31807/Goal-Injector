@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 81,
+    "description": "A simple mod that adds a custom event `RegisterGoalsEvent` that allows the modification and query of a mobs goals during the registration (for modders)"
+  }
+}
